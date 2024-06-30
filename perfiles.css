@@ -1,0 +1,29 @@
+:root{
+    --green:#2ecc71;
+    --orange:#ffd500;
+    --white:#f8f8ff;
+
+}
+
+body{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    background: var(--white);
+    font-family: "Inter", sans-serif;
+    height: 100vh;
+    background-color: #000;
+}
+.avatars img{
+    width: 8rem;
+    height: 8rem;
+    object-fit:cover;
+    border-radius: 50%;
+    overflow: hidden;
+    cursor: pointer;
+    border: 8px solid var(--green);
+    transition: all 0.2s ease-in-out;
+}
+.avatars img:hover{
+    border: 8px; solid var(--orange);
+}
